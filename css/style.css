@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@400;700&family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    padding: 145px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* ===============
+      CABEÇALHO
+   ===============
+*/
+
+.cabecalho{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background-color: #2d2a30;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto_cabecalho h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    color: #8f9296;
+    margin-right: 290px;
+}
+
+.texto_cabecalho span{
+    color: #00710b;
+}
+
+.logo_cabecalho{
+    position: relative;
+    max-width: 870px;
+    max-height: 840px;
+    margin-bottom: 80px;
+}
+
+.logo_cabecalho img{
+    height: 140px;
+    width: 140px;
+    margin-bottom: -80px;
+}
+
+.cabecalho ul{
+    position: relative;
+    display: flex;  
+}
+
+.cabecalho ul li{
+    list-style: none;
+}
+
+.cabecalho ul li a{
+    display: inline-block;
+    color: #8f9296;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 30px;
+}
+
+#ativo{
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+}
+
+#ativo:hover{
+    padding: 20px;
+    color: white;
+    background-color: rgb(44, 32, 32);
+}
+
+/* ===============
+    FIM CABEÇALHO
+   ===============
+*/
+
+
+
+/* ===============
+    DIV MAIN
+   ===============
+*/
+
+#bg{
+    background-color: #1d1e28;
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textBox{
+    position: relative;
+    max-width: 880px;
+    margin-left: 50px;
+}
+
+.content .textBox h2{
+    color: #5f5f5f;
+    font-size: 5em;
+    line-height: 1.4em;
+    font-weight: 900;
+}
+
+.content .textBox h2 span{
+    color: #00710b;
+    font-size: 1.3em;
+    font-weight: 1200;
+}
+
+.content .textBox p{
+    color: #5f5f5f;
+    font-size: 20px;
+}
+
+.content .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 30px;
+    background: #017143;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-decoration: none;   
+    text-transform: uppercase;
+}
+
+#ativo2{
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+}
+
+#ativo2:hover{
+    padding: 15px 50px;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+.content .imgBox{
+    width: 1500px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: -130px;
+}
+
+.content .imgBox img{
+    max-width: 740px;
+    border-radius: 50px;
+}
+
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1e0384;
+    clip-path: circle(600px at right 800px);
+}
+
+
+
+/* ===============
+    FIM DIV MAIN
+   ===============
+*/
+
+
+/* ===============
+    FIM DIV MAIN
+   ===============
+*/
+
+
+
+/* ===============
+    FIM DIV MAIN
+   ===============
+*/
+
+
+/* ===============
+    EQUIPE
+   ===============
+*/
+
+#bg1{
+    background-color: #2f303f;
+}
+
+.team .member{
+    position: relative;
+    padding: 30px;
+    box-shadow: 0px 2px 15px rgba*(0,0,0,0,.1);
+    border-radius: 5px;
+    background: #d3d3d3;
+}
+
+.team .member .teampic{
+    overflow: hidden;
+    width: 270px;
+    height: 168px;
+    border-radius: 50%;
+}
+
+.carlos{
+    margin-left: 325px;
+}
+
+.team .member .member-info{
+    padding-left: 30px;
+}
+
+.team .member h4{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #21a828;
+}
+
+.team .member span{
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: 500;
+}
+
+.team .member .span::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: black;
+    bottom: 0;
+    left: 0;
+}
+
+.member-info span p{
+    color: #5f5f5f;
+}
+
+.team .member p{
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+
+.team .member .social{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.team .member .social a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: #e6e6e6;
+}
+
+.team .member .social a i{
+    color: #21a828;
+    font-size: 16px;
+    margin: 0 2px;
+}
+
+.team .member .social a:hover{
+    background: #21a828;
+}
+
+.team .member .social a:hover i{
+    color: white;
+}
+
+.team .member .social a+a{
+    margin-left: 8px;
+}
+
+.section-title{
+    text-align: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.underline{
+    width: 550px;
+    height: 1px;
+    background-color: #5f5f5f;
+    margin: auto;
+    margin-top: -30px;
+}
+
+.section-title h2{
+    font-size: 62px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #00710b;
+}
+
+.section-title p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #5f5f5f;
+}
+
+/* ===============
+    FIM EQUIPE
+   ===============
+*/
+
+
+/* ===============
+       FOOTER
+   ===============
+*/
+
+.footer-sec{
+    padding: 0;
+    margin: 0;
+    background-color: #2d2a30;
+}
+
+footer {
+    bottom: 0;
+    top: 0;
+}
+
+
+.footer-distributed {
+    background-color: #2d2a30;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 30px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Poppins';
+    margin: 0;
+}
+
+
+.footer-distributed h3 span {
+    color: #21a828;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #21a828;
+    text-decoration: none;
+    ;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: #21a828;
+}
+
+.footer-links a:hover {
+    color: #21a828;
+}
+
+
+/* ===============
+    FIM FOOTER
+   ===============
+*/
