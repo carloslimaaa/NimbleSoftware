@@ -9,6 +9,7 @@ Este projeto não possui informações reais sobre a empresa, mas oferece uma vi
 ## Sobre o Projeto
 
 A **NimbleSoftware** foi criada apenas para fins acadêmicos durante o curso técnico no **SENAI**. O site foi desenvolvido como um **template** e inclui imagens ilustrativas de projetos que poderiam ser feitos pela empresa. Este template visa fornecer uma estrutura básica para apresentações de portfólio digital, com foco na exibição de projetos realizados.
+
 É recomendado utilizar **90% de zoom** para melhor experiência.
 
 O site contém:
@@ -32,4 +33,5 @@ Agradecemos aos professores que orientaram o desenvolvimento deste projeto e aos
 
 🔗 **Visite o site da La Pasta Nonna**: [La Pasta Nonna](https://carloslimaaa.github.io/LaPastaNonna/)  
 (Desenvolvido pela NimbleSoftware)
+
 🔗 **Visite o site da NimbleSoftware**: [NimbleSoftware](https://carloslimaaa.github.io/NimbleSoftware/)
